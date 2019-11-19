@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    actives:
+    -dev
+
+---
+spring:
+  profiles: dev
+  application:
+    name: ms-config-server-dev
+---
+spring:
+  profiles: test
+  application:
+    name: ms-config-server-test
